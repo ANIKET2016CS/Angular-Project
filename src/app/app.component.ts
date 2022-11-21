@@ -1,10 +1,21 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-rooott',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'cwh-todo-lists';
+  title = 'Amit';
+  x = 5;
+  y = "Raj Nandani";
+
+  constructor() {
+    //   setTimeout(() => {
+    //     this.title = "Hello Aniket"
+    //   }, 5000);
+
+
+  }
+
 }
